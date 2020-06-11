@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FoodSearch/static/css/main.eb855a32.chunk.css",
+    "main.js": "/FoodSearch/static/js/main.fd90da82.chunk.js",
+    "main.js.map": "/FoodSearch/static/js/main.fd90da82.chunk.js.map",
+    "runtime-main.js": "/FoodSearch/static/js/runtime-main.69c5be4e.js",
+    "runtime-main.js.map": "/FoodSearch/static/js/runtime-main.69c5be4e.js.map",
+    "static/js/2.a3a843fe.chunk.js": "/FoodSearch/static/js/2.a3a843fe.chunk.js",
+    "static/js/2.a3a843fe.chunk.js.map": "/FoodSearch/static/js/2.a3a843fe.chunk.js.map",
+    "index.html": "/FoodSearch/index.html",
+    "precache-manifest.892b84d07277ff26feee7f0441f051ff.js": "/FoodSearch/precache-manifest.892b84d07277ff26feee7f0441f051ff.js",
+    "service-worker.js": "/FoodSearch/service-worker.js",
+    "static/css/main.eb855a32.chunk.css.map": "/FoodSearch/static/css/main.eb855a32.chunk.css.map",
+    "static/js/2.a3a843fe.chunk.js.LICENSE.txt": "/FoodSearch/static/js/2.a3a843fe.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/FoodSearch/static/media/food6.954c8aae.jpg",
+    "static/media/noResults-thinking.png": "/FoodSearch/static/media/noResults-thinking.253a02c2.png",
+    "static/media/system-search.png": "/FoodSearch/static/media/system-search.715ff203.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69c5be4e.js",
+    "static/js/2.a3a843fe.chunk.js",
+    "static/css/main.eb855a32.chunk.css",
+    "static/js/main.fd90da82.chunk.js"
+  ]
+}
