@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.layer{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: 20%;
+}
+.load{
+    animation: animate 2s;
+   
+}   
+.content{
+   
+    z-index: 1;
+}
+.bgs{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    animation: animate 40s ease-in-out infinite;
+    
+}
+
+@keyframes animate{
+    0%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./bgimgs/food1.jpg");
+    }
+    20%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./bgimgs/food2.jpg");
+    }
+    40%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./bgimgs/food3.jpg");
+    }
+    60%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./bgimgs/food4.jpeg");
+    }
+    80%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./bgimgs/food5.jpg");
+    }
+    100%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./bgimgs/food6.jpg");
+    }
+}
